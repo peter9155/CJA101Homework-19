@@ -1,6 +1,6 @@
 package hw1;
 
-public class q5 {
+public class Q5 {
 	public static void main(String[] args) {
 		int money = 1500000;
 		double rate = 0.02, compoundInterest;

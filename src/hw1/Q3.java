@@ -1,6 +1,6 @@
 package hw1;
 
-public class q3 {
+public class Q3 {
 	public static void main(String[] args) {
 		int total = 256559, sec = 1, min = sec*60, hour = min*60, day = hour*24;
 		int days = total / day, daysQuo = total%day;

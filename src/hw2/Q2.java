@@ -1,6 +1,6 @@
 package hw2;
 
-public class q2 {
+public class Q2 {
 	public static void main(String[] args) {
 		int i, j, count = 0;
 		for (i = 49; i > 0; i--) {

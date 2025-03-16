@@ -1,6 +1,6 @@
 package hw1;
 
-public class q4 {
+public class Q4 {
 	public static void main(String[] args) {
 		final double pi = 3.141;
 		double circleArea, diameter;
