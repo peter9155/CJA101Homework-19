@@ -27,7 +27,28 @@ public class Q3 {
 			System.out.println(i);
 		}System.out.println("總共有"+count+"個可選");
 		
+		int[] data = new int[6];
+		int count2 = 0;
 		
+		while (count2 < 6) {
+			int r = q3.random();
+			boolean isDuplicate = false;
+			for (int i = 0; i < count2; i++) {
+				if (data[i] == r ){
+					isDuplicate = true;
+					break;
+				}
+				}
+			if (!isDuplicate && (r / 10 != dislikeNum) && (r % 10 != dislikeNum)) {
+				data[count2] = r;
+				count2++;
+			}
+			}
+		
+
+		for(int i = 0; i < 6; i++ ) {
+		System.out.print(data[i]+"\t");
+		}
 		}
 	}
 

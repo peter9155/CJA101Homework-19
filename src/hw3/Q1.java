@@ -9,7 +9,12 @@ public class Q1 {
 				return "正三角形";
 			} else if ((sideA == sideB) || (sideB == sideC) || (sideA == sideC) ){
 				return "等腰三角形";
-			} else {
+			} else if (Math.pow(sideA,2) == (Math.pow(sideB, 2) + Math.pow(sideC, 2))
+					|| Math.pow(sideB,2) == (Math.pow(sideA, 2) + Math.pow(sideC, 2))
+					|| Math.pow(sideC,2) == (Math.pow(sideA, 2) + Math.pow(sideB, 2))) {
+				return "直角三角形";
+			}
+			else {
 				return "其他三角形";
 			}
 		}else {
